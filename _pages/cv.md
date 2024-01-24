@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /cv/
+permalink: /assets/pdf/Enoch_Jan24.pdf
 title: Resume
 nav: true
 nav_order: 5
