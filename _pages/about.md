@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 
 Hiii, I am Enoch. I have 10 years of work experience in Cross-border e-commerce and logistics since 2014. I am currently pursuing a Master's degree in Data Science at [Harvard University](https://www.harvard.edu/), having completed a double major in Applied Mathematics and Data Science at [UC Berkeley](https://www.berkeley.edu/). I am proficient in several areas including machine learning, deep learning, natural language processing (NLP), and computer vision. As a quick learner and team player, I am confident in my ability to succeed in any work environment.
 
-I am currently seeking a `full-time` position in Data Science, Data Engineering, Machine Learning Engineering, or Product Management to further develop my skills and make a meaningful contribution. Please feel free to contact me at hliu3@g.harvard.edu if you are interested in discussing potential opportunities.
+I am currently seeking a `full-time` position in Data Science, Data Engineering, Machine Learning Engineering, or Product Management to further develop my skills and make a meaningful contribution. Please feel free to contact me at `hliu3@g.harvard.edu` if you are interested in discussing potential opportunities.
 
 [//]: # (Write your biography here. Tell the world about yourself. Link to your favorite [subreddit]&#40;http://reddit.com&#41;. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.)
 
