@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: hliu3@g.harvard.edu
 
 profile:
   align: right
@@ -10,7 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Email: hliu3@g.harvrad.edu</p>
-    <p>123 your address street</p>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
