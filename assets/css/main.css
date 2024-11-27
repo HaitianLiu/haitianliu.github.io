@@ -614,6 +614,10 @@ section,
   .hero p {
     font-size: 20px;
   }
+
+  .hero img {
+    content: url('../img/hero-bg-media.jpg');
+  }
 }
 
 /*--------------------------------------------------------------
