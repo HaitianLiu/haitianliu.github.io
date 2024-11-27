@@ -439,42 +439,36 @@
           </div>
 
           <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form id="contact-form" class="php-email-form" onsubmit="sendEmail(event)">
               <div class="row gy-4">
-
                 <div class="col-md-6">
                   <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
                 </div>
-
                 <div class="col-md-6 ">
                   <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
                 </div>
-
                 <div class="col-md-12">
                   <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
                 </div>
-
                 <div class="col-md-12">
                   <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
                 </div>
-
                 <div class="col-md-12 text-center">
                   <div class="loading">Loading</div>
-                  <div class="error-message"></div>
+<!--                  <div class="error-message"></div>-->
                   <div class="sent-message">Your message has been sent. Thank you!</div>
-
                   <button type="submit">Send Message</button>
                 </div>
-
               </div>
             </form>
           </div><!-- End Contact Form -->
-
         </div>
 
       </div>
 
     </section><!-- /Contact Section -->
+
+
 
   </main>
 
@@ -518,6 +512,32 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+    // Initialize EmailJS
+    emailjs.init("PXH0GcpWX-EFMXZF3");
+
+    function sendEmail(event) {
+      event.preventDefault(); // Prevent the form from reloading the page
+
+      // Get the form element
+      var form = document.getElementById("contact-form");
+
+      // Send the form data using EmailJS
+      emailjs.sendForm('service_01tblin', 'template_tpol5ym', form)
+              .then(function(response) {
+                console.log('SUCCESS!', response);
+                document.querySelector('.sent-message').style.display = 'block';
+              }, function(error) {
+                console.log('FAILED...', error);
+                document.querySelector('.error-message').innerHTML = "Sorry, something went wrong!";
+                document.querySelector('.error-message').style.display = 'block';
+              });
+    }
+  </script>
+
+
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
