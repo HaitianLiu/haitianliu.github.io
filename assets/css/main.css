@@ -1180,13 +1180,15 @@ section,
 # Portfolio Details Section
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
-  width: 100%; /* Ensure the image fills the width of its container */
-  height: 100%; /* Fill the height of its container */
+  width: 100%; /* Maintain original aspect ratio */
+  height: 100%; /* Maintain original aspect ratio */
+  max-height: 750px; /* Set the maximum height for all images */
   object-fit: contain; /* Scale the image while maintaining its aspect ratio */
 }
 
 .portfolio-details .swiper-wrapper {
-  height: 750px;
+  height: auto;
+  max-height: 750px;
 }
 
 .portfolio-details .swiper-button-prev,
