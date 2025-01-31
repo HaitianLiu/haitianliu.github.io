@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="29bec6f3-f72a-47fd-a250-e1192341c9cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/cover/MBI_CV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/cover/MBI_CV.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/cover/wildfire.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/cover/wildfire.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/portfolio/wildfire.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio/wildfire.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/enoch/Desktop/haitianliu.github.io/pages/portfolio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/enoch/Desktop/haitianliu.github.io/pages/portfolio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pages/portfolio" />
@@ -66,7 +66,10 @@
       <option name="presentableId" value="Default" />
       <updated>1706067647386</updated>
       <workItem from="1706067648442" duration="13490000" />
-      <workItem from="1732653912141" duration="83012000" />
+      <workItem from="1732653912141" duration="86180000" />
+      <workItem from="1734173718831" duration="602000" />
+      <workItem from="1734225089202" duration="7039000" />
+      <workItem from="1737154658559" duration="598000" />
     </task>
     <servers />
   </component>
